@@ -32,6 +32,7 @@
     "jasmine-core": "^2.4.1",
     "live-server": "^1.0.0",
     "systemjs": "^0.19.27",
+    "ts-loader": "^0.8.2",
     "typescript": "^1.8.10",
     "typings": "^0.8.1",
     "webpack": "^1.13.1"
