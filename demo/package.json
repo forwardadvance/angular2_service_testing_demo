@@ -2,7 +2,7 @@
   "name": "angular2-ajax",
   "version": "1.0.0",
   "scripts": {
-    "test": "live-server --open=unit-tests.html",
+    "test": "live-server --open=specs.html",
     "postinstall": "typings install",
     "tsc": "tsc",
     "tsc:w": "tsc -w",

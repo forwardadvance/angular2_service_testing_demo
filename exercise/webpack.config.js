@@ -1,9 +1,13 @@
 module.exports = {
-  entry: './source/app.ts',
-  sourcemap: true,
-  output: {
-    filename: 'build/app.js'
+  entry: {
+    app: "./source/app.ts",
+    specs: "./source/specs.ts"
   },
+  output: {
+    filename: "./build/[name].js",
+  },
+  // entry: '',
+  sourceMap: true,
   resolve: {
     extensions: ['', '.ts', '.js']
   },
