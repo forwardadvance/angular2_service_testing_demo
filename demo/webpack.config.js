@@ -1,19 +1,15 @@
 module.exports = {
-  entry: {
-    app: "./source/app.ts",
-    specs: "./source/specs.ts"
-  },
+  entry: "./source/app.js",
   output: {
-    filename: "./build/[name].js",
+    filename: "./build/app.js",
   },
-  // entry: '',
   sourceMap: true,
   resolve: {
     extensions: ['', '.ts', '.js']
   },
   module: {
     loaders: [
-      { test: /\.ts$/, loader: 'ts-loader' }
+      { test: /\.js$/, loader: 'babel-loader' }
     ]
   }
 }
